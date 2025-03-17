@@ -119,7 +119,13 @@ void Input()
     }
 }
 
-
+void TogglePlayer()
+{
+    if (player == 'X')
+        player = 'O';
+    else
+        player = 'X';
+}
 
 int main()
 {
